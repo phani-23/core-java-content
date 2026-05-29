@@ -15,6 +15,7 @@ public class List_1 {
 		l1.add("g");
 		l1.add("phani");
 		l1.add("g");
+		l1.add(1, "deek");
 		
 		System.out.println("the printed strings are:");
 		
@@ -39,6 +40,19 @@ public class List_1 {
 		
 		boolean b=l1.contains("Krishna");
 		System.out.println(b);
+		
+		
+		List<Integer> m=new ArrayList<>();
+		m.add(1);
+		m.add(3);
+		m.add(5);
+		m.add(2);
+		m.add(4);
+		
+		System.out.println(m);
+		
+		
+		
 	}
 
 }
